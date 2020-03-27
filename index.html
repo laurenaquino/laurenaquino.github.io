@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- nimbus-sans -->
+  <link rel="stylesheet" href="https://use.typekit.net/eax0ojk.css">
+  <!-- din-1451-lt-pro-engschrift -->
+  <link rel="stylesheet" href="https://use.typekit.net/xlp7wkp.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Forever 21</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/shop-item.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-white fixed-top">
+    <div class="banner"><span style="margin-left: 42vw;">FREE STANDARD SHIPPING $21+</span></div>    
+    <div class="container">
+      <img class="logo" src="images/logo@3x.png">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="nav-buttons">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-muted" href="#">WOMEN
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">ACCESSORIES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#">SALE</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </nav>
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="spacing">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+
+    <div class="row">
+
+      <!-- INFORMATION COLUMN -->
+      <div class ="column left">
+      <div class="col-sm">
+        <div class="rule">
+        <h1 class="my-4" style="font-size: 90%!important; padding-bottom: -2px">MORE IMAGES
+
+        <input id="moreimages" class="btn btn-light bg-transparent border border-white" type="button" value="+" onclick="change()" data-toggle="collapse" data-target="#CollapseImages" aria-expanded="false" 
+        aria-controls="CollapseImages"></input>
+
+          <script>
+          function change() {
+           var btn = document.getElementById("moreimages");
+
+                if (btn.value == "+") {
+                    btn.value = "—";
+                    btn.innerHTML = "—";
+                }
+                else {
+                    btn.value = "+";
+                    btn.innerHTML = "+";
+           }
+         }
+        </script>
+
+        </h1>
+        </div>
+        <br>
+          <div class="collapse" id="CollapseImages">
+            hello
+            <br>
+            <br>
+          </div>
+
+        <div class="rule" style="margin-top: -15px">
+        <h1 class="my-4" style="font-size: 90%!important; padding-bottom: -2px">PRODUCT INFORMATION
+
+        <input id="productinfo" class="btn btn-light bg-transparent border border-white" type="button" value="+" onclick="change2()" data-toggle="collapse" data-target="#CollapseInfo" aria-expanded="false" 
+        aria-controls="CollapseInfo"></input>
+
+          <script>
+          function change2() {
+           var btn2 = document.getElementById("productinfo");
+
+                if (btn2.value == "+") {
+                    btn2.value = "—";
+                    btn2.innerHTML = "—";
+                }
+                else {
+                    btn2.value = "+";
+                    btn2.innerHTML = "+";
+           }
+         }
+        </script>
+
+        </h1>
+        </div>
+        <br>
+          <div class="collapse" id="CollapseInfo">
+            hello
+            <br>
+          </div>
+
+        </div>
+      </div>
+      <!-- /.col-lg-3 -->
+
+      <!-- IMAGE COLUMN -->
+        <div class="column middle">
+          <div class="column-sm">
+              <div class="card mt-4">
+                <img class="card-img-top img-fluid" src="http://placehold.it/900x400" alt="">
+              </div>
+          </div>
+      </div>
+
+
+      <!-- SIZES + REVIEW COLUMN -->
+      <div class ="column right">
+      <div class="col-sm">
+          <div class="card-body">
+            <h3 class="card-title">Stretch-Denim Mini Bodycon Dress</h3>
+            <h4>$22.99</h4>
+            <p class="text-muted">We paid our laborers $1.60 per dress that they sewed, and now we're selling it to you for $23! That's how we make a profit.</p>
+            <span class="text-warning">&#9733; &#9734; &#9734; &#9734; &#9734;</span>
+            1.0 stars
+          </div>
+          <h1 class="my-4" style="font-size: 90%!important; margin-left: 1vw; margin-top: -1vh;">COLORS: </h4>
+
+          <script type="text/javascript">
+
+           var ImageSelector = function() {
+              var imgs = null;
+              var selImg = null;
+
+              return {
+                 addImages: function(container) {
+                    imgs = container.getElementsByTagName("img");
+                    for(var i = 0, len = imgs.length; i < len; i++) {
+                       var img = imgs[i];
+                       img.className = "normal";
+                       img.onclick = function()  {
+                          if(selImg)   {
+                             selImg.className = "normal";
+                          }
+                          this.className = "highlighted";
+                          selImg = this;
+                       };
+                    }
+                 }
+              };
+           }();
+
+          </script>
+
+      </head>
+      <body>
+          <div>
+              <div id="menu" class="color">
+                  <img id="color" src="images/swatch1@3x.png" width="30" height="30"/>
+                  <p class="caption">Olive Green</p>
+                  <br>
+                  <br>
+                  <img  style="margin-left:2vw !important" id="color" src="images/swatch2@3x.png" with="30" height="30"/>
+                  <p class="caption">Bright Blue</p>
+              </div>
+          </div>
+          <div id="swatch" class="caption"></div>
+
+          <script type="text/javascript">
+
+              var div = document.getElementById("menu");
+              ImageSelector.addImages(div);
+
+          </script>
+
+      </body>
+          <br>
+          <br>
+          <button type="button" class="btn btn-outline-dark btn-block" style="margin-left: 20px;">ADD TO CART</button>
+
+          <script language="javascript">
+              function changeImage() {
+
+                  if (document.getElementById("wishlist").src === "images/unfilled.png") 
+                  {
+                      document.getElementById("wishlist").src = "images/unfilled.png";
+                  }
+                  else 
+                  {
+                      document.getElementById("wishlist").src = "images/filled.png";
+                  }
+              }
+          </script>
+          <img class="heart" alt="" id="wishlist" src="images/unfilled.png" onclick="changeImage()"/>
+          <img class="share" id="share" src="images/share@3x.png">
+        </div>
+
+      </div>
+    </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-white">
+    <div class="container">
+      <!-- /.card -->
+        <div class="card card-outline-secondary my-4">
+          <div class="card-header">
+            Product Reviews
+          </div>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis et enim aperiam inventore, similique necessitatibus neque non! Doloribus, modi sapiente laboriosam aperiam fugiat laborum. Sequi mollitia, necessitatibus quae sint natus.</p>
+            <small class="text-muted">Posted by Anonymous on 3/1/17</small>
+            <hr>
+            <a href="#" class="btn btn-light">Leave a Review</a>
+          </div>
+        </div>
+        <!-- /.card -->
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
